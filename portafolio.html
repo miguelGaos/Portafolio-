@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Miguelinho">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+    <title>Mi Portafolio Profesional</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+       
+        section.espaciado {
+            margin-top: 4rem;
+            margin-bottom: 4rem;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Mi Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="nav nav-pills nav-fill w-100 justify-content-end">
+                    <li class="nav-item"><a href="#sobre-mi" class="nav-link text-white">Sobre Mí</a></li>
+                    <li class="nav-item"><a href="#proyectos" class="nav-link text-white">Proyectos</a></li>
+                    <li class="nav-item"><a href="#articulos" class="nav-link text-white">Artículos</a></li>
+                    <li class="nav-item"><a href="#contacto" class="nav-link text-white">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container py-4">
+
+        <div class="alert alert-info alert-dismissible fade show shadow-sm mt-3" role="alert">
+            <strong>¡Hola!</strong> Bienvenido a mi portafolio digital. Explora mis proyectos y descubre lo que he construido.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <section id="sobre-mi" class="espaciado d-flex justify-content-center">
+            <article class="card shadow" style="max-width: 800px;">
+                <div class="row g-0">
+                    <div class="col-md-5">
+                        <img src="https://ca.slack-edge.com/E02KLGDBF9B-U08PVR1Q269-3b0d91359405-512" class="img-fluid rounded-start h-100 object-fit-cover" alt="Mi Foto">
+                    </div>
+                    <div class="col-md-7 d-flex align-items-center">
+                        <div class="card-body p-4">
+                            <h2 class="card-title fw-bold">¡Hola! Soy Miguelinho</h2>
+                            <h4 class="card-subtitle mb-3 text-muted">Desarrollador / Auxiliar de Sistemas</h4>
+                            <p class="card-text">
+                               ¡Hola! Soy Miguel Ángel Martínez, estudiante del programa de Auxiliar de Sistemas en el CESDE. Me apasiona la tecnología, el desarrollo web y la creación de interfaces limpias y responsivas. Durante mi carrera, he disfrutado mucho el proceso de aprender a estructurar ideas a través del código, superando retos de maquetación con herramientas como HTML, CSS y Bootstrap. Mi objetivo profesional a futuro es consolidarme como desarrollador Front-end, participar en proyectos que impacten positivamente a los usuarios y seguir creciendo día a día en este mundo tecnológico que nunca se detiene.
+                            </p>
+                            <div>
+                                <span class="badge bg-primary rounded-pill me-1">HTML</span>
+                                <span class="badge bg-danger rounded-pill me-1">CSS</span>
+                                <span class="badge bg-info text-dark rounded-pill me-1">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section id="proyectos-destacados" class="espaciado">
+            <h3 class="mb-4 text-center border-bottom pb-2">Proyectos Destacados</h3>
+            <div id="carruselProyectos" class="carousel slide shadow-sm rounded overflow-hidden" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtEynsEHU6BvoeXTwyA4hDFypfrTfi85Iwhg&s" class="d-block w-100" alt="Proyecto 1" style="height: 400px; object-fit: cover;">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                            <h5>Proyecto Principal</h5>
+                            <p>Calculadora diseñada con el lenguaje de programacion Python</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://img.freepik.com/vector-premium/zonas-estacionamiento-urbano-dibujos-animados-diseno-vista-superior-coches-color-ilustracion-vectorial_287964-926.jpg" class="d-block w-100" alt="Proyecto 2" style="height: 400px; object-fit: cover;">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carruselProyectos" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon rounded-circle bg-dark" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carruselProyectos" data-bs-slide="next">
+                    <span class="carousel-control-next-icon rounded-circle bg-dark" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="proyectos" class="espaciado">
+            <h3 class="mb-4 text-center border-bottom pb-2">Más Trabajos y Prácticas</h3>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                
+                <article class="col">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtEynsEHU6BvoeXTwyA4hDFypfrTfi85Iwhg&s" alt="Miniatura de proyecto">
+                        <div class="card-body">
+                            <h5 class="card-title">Calculadora</h5>
+                            <p class="card-text text-muted">Calculadora diseñada con python totalmente funcional.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <a href="https://github.com/miguelGaos/CalculadoraMejorada.git" class="btn btn-outline-danger btn-sm w-100">Ver proyecto</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img class="card-img-top" src="https://img.freepik.com/vector-premium/zonas-estacionamiento-urbano-dibujos-animados-diseno-vista-superior-coches-color-ilustracion-vectorial_287964-926.jpg" alt="Miniatura de proyecto">
+                        <div class="card-body">
+                            <h5 class="card-title">Parking</h5>
+                            <p class="card-text text-muted">Proyecto el cual te muestra los vehiculos que llenan un parking</p>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <a href="https://github.com/miguelGaos/Parking.git" class="btn btn-outline-primary btn-sm w-100">Ver proyecto</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img class="card-img-top" src="https://png.pngtree.com/png-clipart/20220620/original/pngtree-car-manufacture-factory-png-work-process-with-frame-and-wheels-assembling-png-image_8128899.png" alt="Miniatura de proyecto">
+                        <div class="card-body">
+                            <h5 class="card-title">Fabrica de automoviles</h5>
+                            <p class="card-text text-muted">Programa diseñado con java para diseñar tu vehiculo a tu gusto.</p>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <a href="https://github.com/miguelGaos/FabricaDeVehiculos.git" class="btn btn-outline-success btn-sm w-100">Ver proyecto</a>
+                        </div>
+                    </div>
+                </article>
+<article class="col">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img class="card-img-top" src="https://media.istockphoto.com/id/1167871002/es/vector/dise%C3%B1o-de-ilustraci%C3%B3n-de-tarjetas-de-bingo.jpg?s=612x612&w=0&k=20&c=tR-PfFMfjArVOygSjIkTRnP7Zhc_IIP3eNq3kaUxprk=" alt="Miniatura de proyecto">
+                        <div class="card-body">
+                            <h5 class="card-title">Fabrica de automoviles</h5>
+                            <p class="card-text text-muted">Programa diseñado con java para diseñar tu vehiculo a tu gusto.</p>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <a href="https://github.com/miguelGaos/BINGO.git" class="btn btn-outline-success btn-sm w-100">Ver proyecto</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+            <div class="text-center mt-4">
+                <button class="btn btn-dark btn-lg">Ver todos los proyectos en GitHub</button>
+            </div>
+        </section>
+
+        <section id="articulos" class="espaciado">
+            <h3 class="mb-4 text-center border-bottom pb-2">Artículos Escritos</h3>
+            <div class="accordion shadow-sm" id="acordeonArticulos">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#articulo1">
+                            ¿Por qué usar Bootstrap en 2026?
+                        </button>
+                    </h2>
+                    <div id="articulo1" class="accordion-collapse collapse show" data-bs-parent="#acordeonArticulos">
+                        <div class="accordion-body">
+                            <p>Bootstrap sigue siendo una excelente herramienta para crear interfaces de manera rápida. Permite a los desarrolladores estructurar layouts complejos y responsivos en cuestión de minutos usando su sistema de grillas y componentes prefabricados...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#articulo2">
+                            Mi experiencia aprendiendo Flexbox
+                        </button>
+                    </h2>
+                    <div id="articulo2" class="accordion-collapse collapse" data-bs-parent="#acordeonArticulos">
+                        <div class="accordion-body">
+                            <p>Al principio, organizar los elementos en la pantalla era todo un reto, pero al comprender las clases `d-flex`, `justify-content` y `align-items`, el diseño web se volvió mucho más lógico y manejable.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonios" class="espaciado">
+            <h3 class="mb-4 text-center border-bottom pb-2">Testimonios de Compañeros y Profesores</h3>
+            <div class="table-responsive shadow-sm rounded">
+                <table class="table table-striped table-hover m-0">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Rol</th>
+                            <th>Comentario</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Laura Tibocha</th>
+                            <td>Compañera de Proyecto</td>
+                            <td>"Un desarrollador muy dedicado, siempre busca soluciones efectivas para la maquetación web."</td>
+                        </tr>
+                        <tr>
+                            <th>Nicolas Castilla</th>
+                            <td>Líder Técnico</td>
+                            <td>"Estructura el código de manera limpia y tiene un gran ojo para el diseño responsivo."</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="contacto" class="espaciado">
+            <div class="card shadow border-0 bg-light p-4 mx-auto" style="max-width: 600px;">
+                <h3 class="text-center mb-4">¡Trabajemos juntos!</h3>
+                <form action="#">
+                    <div class="mb-3">
+                        <label class="form-label fw-bold" for="name">Nombre</label>
+                        <input placeholder="Por favor ingrese su nombre" class="form-control" type="text" name="nombre" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-bold" for="email">Correo Electrónico</label>
+                        <input placeholder="Por favor ingrese su Email" class="form-control" type="email" name="email" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-bold" for="descripcion">Mensaje</label>
+                        <textarea placeholder="Cuéntame sobre tu proyecto..." class="form-control" name="descripcion" id="descripcion" rows="4" required></textarea>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg">Enviar Mensaje</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-0">©️ 2026 Creado con esfuerzo y Bootstrap por Miguelinho. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
